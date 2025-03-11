@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychology</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF9F7;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+        }
+        .logo {
+            position: relative;
+            display: inline-block;
+            text-align: left;
+        }
+        
+        .book {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .buddy {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+            transform-origin: top left;
+            margin-left: 67px;
+            margin-top: -08px;
+        }
+        #search {
+            width: 30%;
+            height: 30px;
+            margin-right: 5cm;
+            margin-right: 2cm;
+            padding-left: 40px;
+            background: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/search.svg') no-repeat left center;
+            background-size: 20px;
+        }
+        button {
+            padding: 5px 15px;
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+            margin-right: 3cm;
+        }
+        main {
+            padding: 30px 50px;
+        }
+        .container {
+            padding-right: 600px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 2cm;
+            align-items: left;
+        }
+        h1{
+            margin-left: -1cm;
+            margin-top: 0.3cm;
+            font-size: 14px;
+        }
+        h2 {
+            margin-left: 1cm;
+            font-weight: bolder;
+            font-size: 28px;
+        }
+        p{
+            margin-left: 1cm;
+            font-size: 14px;
+            
+        }
+        .book-psychology {
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 30px; 
+            justify-content: center; 
+            margin: 40px;
+    
+        }
+        .book img {
+            width: 100px;
+            height: 150px;
+            border: 1px solid #ccc;
+        }
+        .stars {
+            color:gold;
+            font-size: 26px;
+            margin-top: 4px;
+            text-align: center;
+            
+        }
+        
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 20px 50px;
+        }
+        .left {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .center i {
+            margin: 0 10px;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: black !important;
+        }
+        .social-icons a:hover {
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="book">BOOK</span>
+            <span class="buddy">bUDDY</span>
+        </div>
+        <input type="text" id="search" placeholder="Search...">
+        <button class="sign-in">Sign in</button>
+    </header>
+    
+    <div class="container">
+        <div>
+            <h1>Genres > Psychology</h1>
+            <h2>Psychology</h2>
+            <p>Books that involve psychology; the study of mental processes and human behavior.</p>
+            <div class="book-psychology">
+                <div class="book"><img src="1.jpg" alt="Book 1"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="C:\Users\Sanchi gor\OneDrive\Desktop\WT Assignment 2\41881472._SY475_.jpg" alt="Book 2"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="3.jpg" alt="Book 3"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="4.jpg" alt="Book 4"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="C:\Users\Sanchi gor\OneDrive\Desktop\WT Assignment 2\5.jpg" alt="Book 5"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="6.jpg" alt="Book 6"><div class="stars">★★★★☆</div></div>
+                <div class="book"><img src="7.jpg" alt="Book 7"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="8.jpg" alt="Book 8"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="9.jpg" alt="Book 9"><div class="stars">★★★★★</div></div>
+                <div class="book"><img src="10.jpg" alt="Book 10"><div class="stars">★★★★★</div></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="left">What is crowdsourcing?</div>
+        <div class="center">Contact Us <br>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

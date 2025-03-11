@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF9F7;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+        }
+        .logo {
+            position: relative;
+            display: inline-block;
+            text-align: left;
+        }
+        
+        .book {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .buddy {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+            transform-origin: top left;
+            margin-left: 67px;
+            margin-top: -08px;
+        }
+        #search {
+            width: 30%;
+            height: 30px;
+            margin-right: 5cm;
+            margin-right: 2cm;
+            padding-left: 40px;
+            background: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/search.svg') no-repeat left center;
+            background-size: 20px;
+        }
+        button {
+            padding: 5px 15px;
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+            margin-right: 3cm;
+        }
+        main {
+            padding: 30px 50px;
+        }
+        .navbar {
+            text-align: right; 
+            margin-top: 20px; 
+            font-family: Arial, sans-serif; 
+            font-size: 16px; 
+            margin-right: 6cm;
+
+        }
+        
+        .navbar a {
+            text-decoration: none; 
+            color: black; 
+            margin: 0 10px; 
+        }
+        
+        .navbar a:hover {
+            text-decoration: underline; 
+        }
+
+        .content-section {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin: 10px 5px; 
+        }
+        
+        
+        .text {
+            width: 40%; 
+            font-size: 28px;
+            color: black;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            margin-top: -3cm;
+
+    
+        }
+        
+        .image {
+        
+            text-align: center; 
+            overflow: hidden; 
+            height: 9cm;
+            width: 10cm;
+            margin-right: 3cm;
+            margin-left: 3cm;
+            
+        }
+
+
+        
+        .image img {
+            width: 100%; 
+            height: 100%; 
+            padding: 10px;
+        
+        
+        }
+        .leaf-image {
+            width: 15cm; 
+            height: 7.5cm; 
+            overflow: hidden; 
+            margin-right: 3cm;
+            margin-left: 3cm;
+            margin-bottom: 2cm;
+        }
+        
+        .leaf-image img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        
+        .quote {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+        
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 20px 50px;
+        }
+        .left {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .center i {
+            margin: 0 10px;
+        }
+        /* Social Icons */
+        .social-icons {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: black;
+          
+        }
+
+        .social-icons a:hover {
+            color: #555;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="book">BOOK</span>
+            <span class="buddy">bUDDY</span>
+        </div>
+        <input type="text" id="search" placeholder="Search...">
+        <button class="sign-in">Sign in</button>
+    </header>
+    
+    <div class="navbar">
+        <a href="#about">About us</a> |
+        <a href="#genres">Genres</a> |
+        <a href="#blog">Blog</a> |
+        <a href="#community">Community</a>
+    </div>    
+    <main>
+        <div class="content-section">
+            <div class="text">
+                <p><strong>Deciding what to read next?</strong></p>
+                <p>
+                    You're in the right place. Tell us what<br>
+                    titles<br>
+                    or genres you've enjoyed in the past, and<br>
+                    we'll give you surprisingly insightful<br>
+                    recommendations.
+                </p>
+                
+            </div>
+            <div class="image">
+                <img src="download (7).jpg" alt="Stack of Books">
+            </div>
+        </div>
+        
+        <div class="content-section">
+            <div class="leaf-image">
+                <img src="download (9).jpg" alt="Leaf Book Image">
+            </div>
+            <div class="text">
+                <p class="quote">
+                    "Unlock the next chapter<br>
+                    of<br>
+                    your imagination."
+                </p>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+    <footer>
+        <div class="left">What is crowdsourcing?</div>
+        <div class="center">Contact Us <br>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    </body>
+    </html>
+    
+    

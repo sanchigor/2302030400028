@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF9F7;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+        }
+        .logo {
+            position: relative;
+            display: inline-block;
+            text-align: left;
+        }
+        
+        .book {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .buddy {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+            transform-origin: top left;
+            margin-left: 67px;
+            margin-top: -08px;
+        }
+        #search {
+            width: 30%;
+            height: 30px;
+            margin-right: 5cm;
+            margin-right: 2cm;
+            padding-left: 40px;
+            background: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/search.svg') no-repeat left center;
+            background-size: 20px;
+        }
+        button {
+            padding: 5px 15px;
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+            margin-right: 3cm;
+        }
+        main {
+            padding: 30px 50px;
+            font-size: 26px;
+            margin-top: -0.3cm;
+            font-weight:medium;
+            margin-bottom: 40px;
+    
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 20px 50px;
+        }
+        .left {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .center i {
+            margin: 0 10px;
+        }
+        /* Social Icons */
+        .social-icons {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: black;
+          
+        }
+
+        .social-icons a:hover {
+            color: #555;
+            
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <span class="book">BOOK</span>
+        <span class="buddy">bUDDY</span>
+    </div>
+    <input type="text" id="search" placeholder="Search...">
+    <button>Sign in</button>
+</header>
+<main>
+    <h1>About us</h1>
+    <p>Welcome to Bookbuddy!</p>
+    <p>We are passionate bibliophiles who believe in the transformative power of books.<br>
+        Our mission is to connect readers with the perfect book for their next great read, be it a classic novel, 
+        a modern <br>
+        thriller, or an enlightening non-fiction work. Our team of dedicated book enthusiasts curates a diverse selection<br>
+        of recommendations, ensuring that there's something for everyone.</p>
+    <p>At bookbuddy, we strive to create a community where readers can discover, share, and<br>
+        discuss their favorite books. Whether you're a lifelong reader or just getting started,<br>
+        we invite you to join us on this literary journey.<br>
+        Let’s explore the endless world of stories together.</p>
+    <p>Happy reading!</p>
+</main>
+<footer>
+    <div class="left">What is crowdsourcing?</div>
+    <div class="center">Contact Us <br>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"> <i class="fab fa-facebook"></i></a>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FDF9F7;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+        }
+
+        .logo {
+            text-align: left;
+        }
+
+        .book {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .buddy {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+            transform-origin: top left;
+            margin-left: 67px;
+            margin-top: -08px;
+        }
+
+        #search {
+            width: 30%;
+            height: 30px;
+            padding-left: 40px;
+            background: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/search.svg') no-repeat left center;
+            background-size: 20px;
+            margin-right: 20px;
+        }
+
+        button {
+            padding: 5px 15px;
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 30px 50px;
+        
+        }
+
+        .book-container {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        .book-image {
+            margin-right: 20px;
+            margin-left: 5cm;
+            margin-top: 2cm;
+        }
+
+        .book-details {
+            max-width: 600px;
+            margin-left: 5cm;
+        }
+
+        h1{
+            font-size:20px;
+            font-weight: lighter;
+            margin-left: 0;
+            margin-top: -0.3cm;
+        }
+        h2{
+            font-size: 26px;
+            font-weight: bold;
+            margin-top: 0.5cm;
+        }
+        
+        h3 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-top: 1cm;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 20px 50px;
+        }
+        .left {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .center i {
+            margin: 0 10px;
+        }
+        .contact {
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .contact i {
+            font-size: 18px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: black;
+        }
+
+        .social-icons a:hover {
+            color: #555;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+        }
+
+        .star {
+            color: gold;
+            margin: 0 2px;
+        }
+
+        .rate-book {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="book">BOOK</span>
+            <span class="buddy">bUDDY</span>
+        </div>
+        <input type="text" id="search" placeholder="Search...">
+        <button class="sign-in">Sign in</button>
+    </header>
+
+    <main>
+        <h1>Genres > Psychology</h1>
+        <div class="book-container">
+            <div class="book-image">
+                <img src="C:\Users\Sanchi gor\Downloads\41881472._SY475_.jpg" alt="The Psychology of Money" width="200">
+            <div class="'book-rating">   
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p>Rate this book</p>
+            </div>
+            <div class="book-details">
+                <h2>The Psychology of Money</h2>
+                <p><strong>Morgan Housel</strong></p>
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span>5.00   10,099 ratings, 990 reviews</span>
+                </div>
+                <p>Doing well with money isn't necessarily about what you know. It's about how you behave. And behavior is hard to teach, even to really smart people. Money--investing, personal finance, and 
+                    business decisions--is typically taught as a math-based field, where data and formulas tell us exactly what to do. But in the real world people don't make financial decisions on a spreadsheet. They make 
+                    them at the dinner table, or in a meeting room, where personal history, your own unique view of the 
+                    world, ego, pride, marketing, and odd incentives are scrambled together. In The Psychology of Money, award-winning author Morgan Housel shares 19 short stories exploring the strange ways people think about money and 
+                    teaches you how to make better sense of one of life's most important 
+                    topics.
+               </p>
+               <p> See more v</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="left">What is crowdsourcing?</div>
+        <div class="center">Contact Us <br>
+    
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        
+    </div>
+       </footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    </body>
+    </html>

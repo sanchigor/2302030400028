@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FDF9F7;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+        }
+
+        .logo {
+            text-align: left;
+        }
+
+        .book {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .buddy {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+            transform-origin: top left;
+            margin-left: 67px;
+            margin-top: -08px;
+        }
+
+        #search {
+            width: 30%;
+            height: 30px;
+            margin-right: 5cm;
+            margin-right: 2cm;
+            padding-left: 40px;
+            background: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/search.svg') no-repeat left center;
+            background-size: 20px;
+            margin-right: 20px;
+        }
+
+        button {
+            padding: 5px 15px;
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 30px 50px;
+        
+        }
+
+        .book-container {
+            display: flex;
+            margin-bottom: 40px;
+            
+        }
+
+        .book-image {
+            margin-right: 20px;
+            margin-left: 5cm;
+            margin-top: 2cm;
+        }
+
+        .book-details {
+            max-width: 800px;
+            margin-left: 5cm;
+            margin-top: 1cm;
+        }
+
+       
+        h2{
+            font-size: 26px;
+            font-weight: bold;
+            margin-top: 0.1cm;
+        }
+        h3 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 0.1cm;
+        }
+        
+        
+
+        p {
+            font-size: 17.7px;
+            line-height: 1.9;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 20px 50px;
+        }
+        .left {
+            font-weight: bold;
+        }
+        .center {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .center i {
+            margin: 0 10px;
+        }
+        .contact {
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .contact i {
+            font-size: 18px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: black;
+        }
+
+        .social-icons a:hover {
+            color: black;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 1px;  
+        }
+        .star {
+            color: gold;
+            margin: 0 2px;
+            margin-left: 0.2cm;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="book">BOOK</span>
+            <span class="buddy">bUDDY</span>
+        </div>
+        <input type="text" id="search" placeholder="Search...">
+        <button class="sign-in">Sign in</button>
+    </header>
+
+    <main>
+        
+        <div class="book-container">
+            <div class="book-image">
+                <img src="P1.jpg" alt="Stay True" width="200">
+            <div class="rating">   
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p>Rate this book</p>
+            </div>
+            <div class="book-details">
+                <h2>Stay True</h2>
+                <h3><strong>Hua Hsu</strong></h3>
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span>5.00      
+                        9,344 rating , 950 reviews</span>
+                </div>
+                <p>Stay True is a 2022 memoir by Hua Hsu, published by Anchor Books and<br>
+                    Doubleday, both imprints of Penguin Random House. The memoir depicts<br>
+                    Hsu's unlikely relationship with a college friend named Ken, a friendship<br>
+                    that was unexpectedly and tragically cut short when Ken was killed in<br>
+                    a carjacking in 1998.<br>
+                    
+
+                    
+                    The book received the 2023 Pulitzer Prize for Memoir or Autobiography<br>
+                    as well as the 2022 National Book Critics Circle award for memoir and autobiography.
+               </p>
+               <p> See more v</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="left">What is crowdsourcing?</div>
+        <div class="center">Contact Us <br>
+    
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        
+    </div>
+       </footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    </body>
+    </html>
